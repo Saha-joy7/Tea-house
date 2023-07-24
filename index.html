@@ -21,14 +21,14 @@
         }
     </style>
 </head>
-<body class="my-20 max-w-[1230px] mx-auto p-7 font-family">
+<body class="font-family">
     <header>
       <!-- banner container -->
-        <section>
+        <section class="my-20 max-w-[1230px] mx-auto p-7">
             <div>
                 <div class="hero-content flex-col md:flex-row-reverse lg:flex-row-reverse">
                  <div class="mx-auto">
-                    <img src="./images/banner.png" class="max-w-sm rounded-lg"/>
+                    <img src="./images/banner.png" class="max-w-50% lg:max-w-full rounded-lg"/>
                     <div class="-mt-10 ml-12 bg-red-50 flex w-[40%] items-center shadow-lg shadow-[#d4b6b6]">
                       <i class="fa-solid fa-star text-amber-400 text-2xl"></i>
                       <div class="text-center">
@@ -50,7 +50,7 @@
     </header>
     <main>
       <!-- featured container -->
-        <section>
+        <section class="my-20 max-w-[1230px] mx-auto p-7">
             <div class="text-center">
                 <h3 class="text-[#1C1C1C] text-3xl lg:text-4xl font-bold">Our Featured Products</h3>
                 <p class="text-sm text-[#777] font-medium lg:w-[65%] mx-auto my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -91,24 +91,26 @@
             </div>
         </section>
       <!-- great tea container -->
-        <section class="flex flex-col lg:flex-row items-center justify-center gap-12 my-12">
-          <div class="grid grid-cols-2 gap-5 flex-1">
-            <div class="bg-rose-50"></div>
-            <div class="bg-rose-50" ><img src="./images/fresh-1.png" alt="" class="mx-auto"></div>
-            <div class="bg-stone-100 "><img src="./images/fresh-2.png" alt="" class="mx-auto"></div>
-            <div class="bg-stone-100"></div>
-          </div>
-          <div class="flex-1">
-            <h3 class="text-[#1C1C1C] text-3xl lg:text-4xl font-bold">Great Tea, Freshly <br> Presented</h3>
-            <p class="text-sm text-[#777] font-medium my-4">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
-            <h4 class="text-sm md:text-base lg:text-lg font-bold text-[#1C1C1C]">Unique Taste</h4>
-            <p class="text-xs md:text-sm font-normal text-[#777]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-            <h4 class="text-sm md:text-base lg:text-lg font-bold text-[#1C1C1C] my-3">Premium Quality</h4>
-            <p class="text-xs md:text-sm font-normal text-[#777]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        <section class="my-20 max-w-[1230px] mx-auto p-7">
+          <div class="flex flex-col lg:flex-row items-center justify-center gap-12 my-12 ">
+            <div class="grid grid-cols-2 gap-5 flex-1">
+              <div class="bg-rose-50"></div>
+              <div class="bg-rose-50" ><img src="./images/fresh-1.png" alt="" class="mx-auto"></div>
+              <div class="bg-stone-100 "><img src="./images/fresh-2.png" alt="" class="mx-auto"></div>
+              <div class="bg-stone-100"></div>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-[#1C1C1C] text-3xl lg:text-4xl font-bold">Great Tea, Freshly <br> Presented</h3>
+              <p class="text-sm text-[#777] font-medium my-4">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+              <h4 class="text-sm md:text-base lg:text-lg font-bold text-[#1C1C1C]">Unique Taste</h4>
+              <p class="text-xs md:text-sm font-normal text-[#777]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+              <h4 class="text-sm md:text-base lg:text-lg font-bold text-[#1C1C1C] my-3">Premium Quality</h4>
+              <p class="text-xs md:text-sm font-normal text-[#777]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
           </div>
         </section>
       <!-- news and event container -->
-        <section>
+        <section class="my-20 max-w-[1230px] mx-auto p-7">
           <div class="text-center">
             <h3 class="text-[#1C1C1C] text-3xl lg:text-4xl font-bold">News & Events</h3>
             <p class="text-sm text-[#777] font-medium lg:w-[65%] mx-auto my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -147,8 +149,56 @@
           </div>
         </section>
     </main>
-    <footer>
+    <!-- footer container -->
+    <footer class="bg-red-100">
+      <section class="text-base-content mt-20 max-w-[1230px] mx-auto p-7">
+        <div class="px-10 py-4 border-t text-base-content border-base-300">
+          <div class="flex justify-between">
+            <img src="./images/cup.png" alt="">
+            <div class="flex flex-col md:flex-row items-center">
+              <p>Ready to get started?</p>
+              <button class="btn  bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-[#fff] text-sm lg:text-lg font-bold">Get Started</button>
+            </div>
+          </div>        
+        </div>
+      </section> 
+          <section class="grid grid-cols-2 space-y-5 lg:grid-cols-4 justify-between lg:p-12">
+            <div>
+              <span class="footer-title">Services</span> 
+              <p class="link link-hover">Branding</p> 
+              <p class="link link-hover">Design</p> 
+              <p class="link link-hover">Marketing</p> 
+              <p class="link link-hover">Advertisement</p>
+            </div> 
+            <div>
+              <span class="footer-title">Company</span> 
+              <p class="link link-hover">About us</p> 
+              <p class="link link-hover">Contact</p> 
+              <p class="link link-hover">Jobs</p> 
+              <p class="link link-hover">Press kit</p>
+            </div> 
+            <div>
+              <span class="footer-title">Legal</span> 
+              <p class="link link-hover">Terms of use</p> 
+              <p class="link link-hover">Privacy policy</p> 
+              <p class="link link-hover">Cookie policy</p>
+            </div>
+            <div>
+              <h3 class="text-lg lg:text-xl font-bold text-[#1C1C1C] mb-7">Subscribe to our <br> newsletter</h3>
+              <p class="text-[#777] text-xs md:sm font-normal my-3">Email address</p>
 
+             
+              
+              
+              <div class="flex">
+               <img src="./images/Frame (1).png" alt="">
+               <img src="./images/Frame (2).png" alt="">
+               <img src="./images/Frame (3).png" alt=""> 
+              </div>
+            </div>
+          </section>
+       
+        
     </footer>
     
 </body>
