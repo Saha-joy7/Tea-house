@@ -7,22 +7,36 @@
     <!-- its the daisy link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- monrope fonts -->
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/6c9c8f09de.js"
+        crossorigin="anonymous"></script>
+    <!-- monrope fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
+      
         .font-family{
             font-family: 'Manrope', sans-serif;
         }
     </style>
 </head>
-<body class="font-family">
+<body class="my-20 max-w-[1230px] mx-auto p-7 font-family">
     <header>
         <section>
-            <div class="max-w-[1230px] mx-auto ">
+            <div>
                 <div class="hero-content flex-col md:flex-row-reverse lg:flex-row-reverse">
-                  <img src="./images/banner.png" class="max-w-sm rounded-lg lg:flex-1" />
+                 <div class="mx-auto">
+                    <img src="./images/banner.png" class="max-w-sm rounded-lg"/>
+                    <div class="-mt-10 ml-12 bg-red-50 flex w-[40%] items-center shadow-lg shadow-[#d4b6b6]">
+                      <i class="fa-solid fa-star text-amber-400 text-2xl"></i>
+                      <div class="text-center">
+                        <h3 class="text-lg lg:text-2xl md:text-xl font-bold text-[#1C1C1C]">5.00</h3>
+                        <p class="text-sm font-normal text-[#777]">Trust Pilot Ratings</p>
+                      </div>
+                    </div>
+                 </div>
+
                   <div class="lg:flex-1">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1C1C1C]">It's good <br>
                         tea time at The <br> Tea House</h1>
@@ -34,34 +48,34 @@
         </section>
     </header>
     <main>
-        <section class="my-20 max-w-[1230px] mx-auto">
+        <section>
             <div class="text-center">
                 <h3 class="text-[#1C1C1C] text-3xl lg:text-4xl font-bold">Our Featured Products</h3>
                 <p class="text-sm text-[#777] font-medium lg:w-[65%] mx-auto my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10">
-                <div class="card  bg-stone-200 shadow-xl p-6">
+                <div class="card  bg-stone-100 shadow-xl p-6">
                     <figure><img src="./images/tea-1.png" alt="tea" /></figure>
                     <div class="text-center my-3">
                       <h2 class="text-sm md:text-lg lg:text-xl font-extrabold text-[#1C1C1C] ">Milk Tea</h2>
                       <p class="text-[#777] text-xs md:sm">Creamer could be replaced by fresh milk</p>
                     </div>
                   </div>
-                  <div class="card  bg-stone-200 shadow-xl p-6">
+                  <div class="card  bg-stone-100 shadow-xl p-6">
                     <figure><img src="./images/tea-2.png" alt="tea" /></figure>
                     <div class="text-center my-3">
                       <h2 class="text-sm md:text-lg lg:text-xl font-extrabold text-[#1C1C1C] ">Black Tea</h2>
                       <p class="text-[#777] text-xs md:sm">Creamer could be replaced by fresh medicine</p>
                     </div>
                   </div>
-                  <div class="card  bg-stone-200 shadow-xl p-6">
+                  <div class="card  bg-stone-100 shadow-xl p-6">
                     <figure><img src="./images/tea-3.png" alt="tea" /></figure>
                     <div class="text-center my-3">
                       <h2 class="text-sm md:text-lg lg:text-xl font-extrabold text-[#1C1C1C] ">Lemon Tea</h2>
                       <p class="text-[#777] text-xs md:sm">Creamer could be replaced by fresh lemon</p>
                     </div>
                   </div>
-                  <div class="card  bg-stone-200 shadow-xl p-6">
+                  <div class="card  bg-stone-100 shadow-xl p-6">
                     <figure><img src="./images/tea-4.png" alt="tea" /></figure>
                     <div class="text-center my-3">
                       <h2 class="text-sm md:text-lg lg:text-xl font-extrabold text-[#1C1C1C] ">Green Tea</h2>
@@ -69,6 +83,24 @@
                     </div>
                   </div>
             </div>
+        </section>
+        <section class="flex flex-col lg:flex-row items-center justify-center gap-12 my-12">
+          <div class="grid grid-cols-2 gap-5 flex-1">
+            <div class="bg-rose-50"></div>
+            <div class="bg-rose-50" ><img src="./images/fresh-1.png" alt="" class="mx-auto"></div>
+            <div class="bg-stone-100 "><img src="./images/fresh-2.png" alt="" class="mx-auto"></div>
+            <div class="bg-stone-100"></div>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-[#1C1C1C] text-3xl lg:text-4xl font-bold">Great Tea, Freshly <br> Presented</h3>
+            <p class="text-sm text-[#777] font-medium my-4">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <h4 class="text-sm md:text-base lg:text-lg font-bold text-[#1C1C1C]">Unique Taste</h4>
+            <p class="text-xs md:text-sm font-normal text-[#777]">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            <h4 class="text-sm md:text-base lg:text-lg font-bold text-[#1C1C1C] my-3">Premium Quality</h4>
+            <p class="text-xs md:text-sm font-normal text-[#777]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+
+          </div>
+
 
         </section>
 
